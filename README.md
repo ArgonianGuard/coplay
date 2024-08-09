@@ -1,3 +1,7 @@
+# Fortress Connected fork of Coplay
+Main purpose of this fork is Linux compatibility/fixes.
+Original repo is linked above
+
 <p align="center"> <img width="500" src="https://coaxion.games/res/coplayLogo.svg"/> </p>
 
 Logo made by FLARE145.
