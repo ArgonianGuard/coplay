@@ -217,7 +217,8 @@ public:
         net_usesocketsforloopback.SetValue(true);
 #ifndef COPLAY_DONT_SET_THREADMODE
         ConVarRef host_thread_mode("host_thread_mode");// fixes game logic speedup, see the README for the required fix for this
-        host_thread_mode.SetValue(2);
+		// FC: don't set to 2 for the moment, there are multiple issues regarding speed up and jiggle physics breaking.
+        host_thread_mode.SetValue(0);
 #endif
     }
 
